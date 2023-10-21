@@ -44,15 +44,15 @@ const Header = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <SunIcon className="h-5 w-5 stroke-2" />
+            <SunIcon className="h-5 w-5 stroke-2 hover:text-[#ff9800] cursor-pointer" />
             <div className="relative">
-              <HeartIcon className="h-5 w-5 stroke-2" />
+              <HeartIcon className="h-5 w-5 stroke-2 hover:text-[#ff9800] cursor-pointer" />
               <div className="absolute bg-white text-black rounded-xl px-1 font-semibold text-xs -top-1  -right-2">
                 0
               </div>
             </div>
             <div className="p-2 bg-[#37475a] text-white rounded-lg">
-              <MagnifyingGlassIcon className="h-5 w-5 stroke-2" />
+              <MagnifyingGlassIcon className="h-5 w-5 stroke-2 hover:text-[#ff9800] cursor-pointer" />
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ const Header = () => {
           </div>
 
           <div className="hover:text-[#ff9800] flex items-center gap-1 cursor-pointer">
-            <span>Follow Us</span>{" "}
+            <span>Follow Us</span>
             <ChevronDownIcon className="h-4 w-4 stroke-2" />
           </div>
         </div>
