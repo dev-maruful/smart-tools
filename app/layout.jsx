@@ -15,8 +15,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <div className="max-w-7xl mx-auto min-h-[calc(100vh-300px)]">
-          {children}
+        <div className="bg-[#e5e6ea] py-8">
+          <div className="max-w-7xl mx-auto min-h-[calc(100vh-300px)]">
+            {children}
+          </div>
         </div>
         <Footer />
       </body>

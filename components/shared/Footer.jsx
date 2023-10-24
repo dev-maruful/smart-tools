@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../public/images/header-logo.png";
+import logo from "../../public/images/shared/header-logo.png";
 import {
   FaFacebook,
   FaTwitter,
