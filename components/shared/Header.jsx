@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "../../public/images/shared/header-logo.png";
+import logo from "../../public/images/shared/logos/header-logo.png";
 import Link from "next/link";
 import {
   ChevronDownIcon,
