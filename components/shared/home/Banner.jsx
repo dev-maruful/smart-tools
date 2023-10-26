@@ -11,7 +11,7 @@ const Banner = () => {
     <div className="bg-white rounded-lg p-4 h-[420px]">
       <div className="grid grid-cols-3 gap-1 h-full">
         <Link
-          href="/"
+          href="/realStates"
           className="w-full h-full relative group rounded-l-lg overflow-hidden"
         >
           <Image
@@ -25,7 +25,10 @@ const Banner = () => {
           </div>
         </Link>
         <div className="space-y-1 flex flex-col">
-          <Link href="/" className="h-1/2 relative group overflow-hidden">
+          <Link
+            href="/gadgets"
+            className="h-1/2 relative group overflow-hidden"
+          >
             <Image
               src={gadgetImage}
               layout="fill"
@@ -36,7 +39,7 @@ const Banner = () => {
               <h3 className="text-xl font-semibold">Gadgets & Consoles</h3>
             </div>
           </Link>
-          <Link href="/" className="h-1/2 relative group overflow-hidden">
+          <Link href="/books" className="h-1/2 relative group overflow-hidden">
             <Image
               src={booksImage}
               layout="fill"
@@ -50,7 +53,7 @@ const Banner = () => {
         </div>
         <div className="space-y-1 flex flex-col">
           <Link
-            href="/"
+            href="/smartphones"
             className="h-1/2 relative group rounded-tr-lg overflow-hidden"
           >
             <Image
@@ -64,7 +67,7 @@ const Banner = () => {
             </div>
           </Link>
           <Link
-            href="/"
+            href="/luxuryCars"
             className="h-1/2 relative group rounded-br-lg overflow-hidden"
           >
             <Image
